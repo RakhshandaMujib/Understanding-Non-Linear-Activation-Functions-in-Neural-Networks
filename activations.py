@@ -1,6 +1,6 @@
 import numpy as np
 
-class activation:
+class Activation:
     '''
     A class containing various activation functions for neural networks.
     '''
