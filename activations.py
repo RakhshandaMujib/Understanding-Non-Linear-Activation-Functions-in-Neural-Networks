@@ -140,3 +140,16 @@ class Activation:
         numpy.ndarray: Output after applying the Swish function.
         '''
         return z * activation.sigmoid(z)
+
+    @staticmethod
+    def soft_plus(z):
+        '''
+        Brief: Compute the Swish activation function.
+
+        Argument(s):
+        * z (numpy.ndarray) - Input values.
+
+        Returns:
+        numpy.ndarray: Output after applying the Soft-plus function.
+        '''
+        return d
