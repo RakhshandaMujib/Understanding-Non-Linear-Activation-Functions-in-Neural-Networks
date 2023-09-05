@@ -152,4 +152,4 @@ class Activation:
         Returns:
         numpy.ndarray: Output after applying the Soft-plus function.
         '''
-        return d
+        return np.log(1 + np.exp(z))
